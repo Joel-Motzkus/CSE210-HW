@@ -1,9 +1,13 @@
 using System;
 
-class Program
+namespace FlyAnglerHelper
 {
-    static void Main(string[] args)
+    public class Program
     {
-        Console.WriteLine("Hello FinalProject World!");
+        public static void Main(string[] args)
+        {
+            Menu menu = new Menu();
+            menu.Start();
+        }
     }
 }
